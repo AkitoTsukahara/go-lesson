@@ -26,7 +26,7 @@ func main() {
 	fmt.Println(arr2)
 
 	var arr5 [4]int
-	arr5 = arr1 // 要素数が異なるのでエラー
+	// arr5 = arr1 // 要素数が異なるのでエラー
 	fmt.Println(arr5)
 
 	fmt.Println(len(arr1))
