@@ -1,4 +1,4 @@
-package lesson08
+package main
 
 import (
 	"fmt"
@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	var s string = "100"
+	var s string = "A"
 
 	i, err := strconv.Atoi(s)
-	if err := nil {
+	if err != nil {
 		fmt.Println(err)
 	}
 	fmt.Printf("i = %T\n", i)
